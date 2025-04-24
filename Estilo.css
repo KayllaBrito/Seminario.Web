@@ -1,0 +1,67 @@
+/*
+    Kaylla Stéfany Teixeira de Brito
+    Tainara Rodrigues de Jesus
+    3°A Informática - 2025
+  */
+
+
+
+  body{
+    background-color: rgb(198, 250, 197);
+    font-family: cursive;
+    text-align: center;
+    padding: 65px;
+}
+
+.form-group label{
+    font-size: 30px;
+    color: rgb(208, 180, 0);
+    text-align: center;
+}
+
+h1{
+    font-size: 65px;
+    color: rgb(21, 167, 62);
+}
+
+.form-group label2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 50px;
+   
+}
+
+
+
+button{
+    padding: 20px 30px;
+    font-size: 3.0rem;
+    background-color: rgb(9, 219, 131);
+    color: #2d5b02;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.5s, backgraund-color 0.6s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color:rgb(246, 255, 179);
+}
+
+#gif {  
+    margin-top: 50;
+}
+
+#gif img{
+width: 200px;
+margin: 15px;
+animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    0%, 100% { transform: translateX(0px);}
+    50% { transform: translateY(-25px);}
+} 
