@@ -5,63 +5,69 @@
   */
 
 
-
-  body{
-    background-color: rgb(198, 250, 197);
-    font-family: cursive;
-    text-align: center;
-    padding: 65px;
+/*corpo*/
+  body{ 
+    background-color: #c6fac5; /*Cor do fundp*/
+    font-family: cursive; /*tipo da Fonte usada*/
+    text-align: center; /*alinha o texto no centro*/
+    padding: 65px; /*Espaçamento da parte interna*/
 }
 
+/*texto decorativo da pagina*/
 .form-group label{
-    font-size: 30px;
-    color: rgb(208, 180, 0);
-    text-align: center;
+    font-size: 30px; /*tamanho da fonte*/
+    color: rgb(208, 180, 0);/*cor da fonte*/
+    text-align: center; /*alinha o texto no centro*/
 }
 
+/*titulo principal da pagina*/
 h1{
-    font-size: 65px;
-    color: rgb(21, 167, 62);
+    font-size: 65px;/*tamanho da fonte*/
+    color: rgb(21, 167, 62);/*cor do texto*/
 }
 
+/*texto decorativo da página*/
 .form-group label2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    font-size: 50px;
+    display: flex; /*exibe como caixa flexivel*/
+    justify-content: center;/*centraliza horizontalmente*/
+    align-items: center;/*alinha o texto no centro*/
+    font-size: 50px;/*tamanho da fonte*/
    
 }
 
 
-
+/*Decoração do unico botao presente na pagina*/
 button{
-    padding: 20px 30px;
-    font-size: 3.0rem;
-    background-color: rgb(9, 219, 131);
-    color: #2d5b02;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: transform 0.5s, backgraund-color 0.6s;
+    padding: 20px 30px;/*espaço na parte interna do botão*/
+    font-size: 3.0rem;/*tamanho da fonte*/
+    background-color: rgb(9, 219, 131);/*cor do fundo do botao*/
+    color: #2d5b02;/*cor da fonte*/
+    border: none;/*removee a borda do botão*/
+    border-radius: 15px;/*arredonda os cantos do botão*/
+    cursor: pointer;/*exibe o cursor de mão ao passar por cima do botao*/
+    transition: transform 0.5s, backgraund-color 0.6s;/* animaçao de cor e tranformação */
 }
 
+/*edição do botão*/
 button:hover {
-    transform: scale(1.1);
-    background-color:rgb(246, 255, 179);
+    transform: scale(1.1); /*Aumenta o tanho do botao ao passar o mouse por ele*/
+    background-color:rgb(246, 255, 179); /*muda a cor  do botaop ao passar o mouse*/
 }
 
+/*edicao gif*/
 #gif {  
-    margin-top: 50;
+    margin-top: 50; /*espaco acima da area do gif*/
 }
 
+/*edição gif*/
 #gif img{
-width: 200px;
-margin: 15px;
-animation: bounce 1s infinite;
+width: 200px; /*tamanho do gif*/
+margin: 15px;/*espaço ao redor do gif*/
+animation: bounce 1s infinite; /*aplica a animaçãobounce repetitivamente*/
 }
 
+/*cria animacoes, definindo o que acontece*/
 @keyframes bounce{
-    0%, 100% { transform: translateX(0px);}
-    50% { transform: translateY(-25px);}
+    0%, 100% { transform: translateX(0px);} /*nao move na horizontal(comeco e fim)*/
+    50% { transform: translateY(-20px);}/*move o gif para cima, o que faz parecer que ele esta pulando*/
 } 
